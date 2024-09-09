@@ -1,0 +1,39 @@
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+    position: relative;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+}
+
+/* end fix */
+.owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+}
+
+.owl-nav i {
+    font-size: 52px;
+}
+.owl-nav svg {
+    width: 42px;
+}
+.owl-nav .owl-prev {
+    left: 30px;
+}
+
+.owl-nav .owl-next {
+    right: 30px;
+}
+.owl-dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    position: relative
+}
+.owl-dot span {
+    display: inline-block;
+    border-radius: 50%;
+}
